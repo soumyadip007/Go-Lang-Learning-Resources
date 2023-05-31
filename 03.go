@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main3(){
 
 	i := 1
 
@@ -11,5 +11,8 @@ func main(){
 		i++
 	}
 
+	for j :=1; j<=5; j++ {
+		fmt.Println("Println")
+	}
 }
 
